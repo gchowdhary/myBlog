@@ -10,7 +10,7 @@ img {
     border-radius: 30%;
 }
 
-.welcome {
+#welcome {
     background: linear-gradient(#f53b07 0%, #662C91 100%);
     display: table;
     width: 100%;
@@ -74,4 +74,10 @@ p {
 }
 .links:hover{
     background-color: burlywood;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:forestgreen;
 }
