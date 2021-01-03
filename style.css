@@ -1,83 +1,25 @@
-body {
-    margin: 0;
-    background-color: aliceblue;
-    text-align: center;
-}
-
-img {
-    width: 175p;
-    margin-bottom: 50px;
-    border-radius: 30%;
-}
-
-#welcome {
-    background: linear-gradient(#f53b07 0%, #662C91 100%);
-    display: table;
+#app {
     width: 100%;
     height: 800px;
-    z-index: 9;
-    }
-.parallax-inner{
-    display: table-cell;
-    position: relative;
+    background-color: aliceblue;
+}
+
+.container
+{
     text-align: center;
-    vertical-align: middle;
-}
-h1 {
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 1.2;
-    font-family: 'Lobster', cursive;
-
-    
-}
-#names{
-    font-family: 'Redressed', cursive;
-}
-h3 {
-    font-size: 30px;
-    font-weight: 300;
 }
 
-.line {
-    height: 6px;
+/*Start your code from here */
+#myCarousel{
     background-color: brown;
-    width: 70px;
-    margin: 25px;
-    margin: auto;
 }
-
-p {
-    max-width: 450px;
-    margin: 25px;
-    margin: auto;
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: whitesmoke;
     font-size: 20px;
-    line-height: 1.7;
-}
-
-.menu {
-    list-style: none;
-    position: fixed;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    z-index: 10;
-}
-.links{
-    font-size: 30px;
-    float:left;
-    color:darkred;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.links:hover{
-    background-color: burlywood;
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    color:forestgreen;
 }
